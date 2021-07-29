@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    
+}
+h2{
+    font-weight: bold;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+   
+}
+#logos{
+   
+    overflow: auto;
+}
+#logo1{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    padding: 40px;
+    text-align: center;
+}
+#logo2{
+    float: right;
+    text-align: center;
+    padding: 46px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+#navigation-bar{
+    text-align: center;
+    padding: 40px;
+    background: black;
+    color: white;
+    margin:10px 1px;
+}
+#client-form{
+    margin-top: 100px;
+    
+}
+.form{
+    margin: 20px 5px 0 10px;
+}
+.form p{
+    padding-bottom: 3px;
+}
+#form-button{
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    float: left;
+}
+#client-photo img{
+   
+    width:200px;
+    height: auto;
+    float:right;
+    margin: 0 20px 0 10px;
+    
+}
+#description{
+    width: 20%;
+    height: auto;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin:5px 20px;
+    overflow:auto;
+}
+
